@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: devops-app
-        image: YOUR_DOCKERHUB_USERNAME/devops-app:latest  # REMPLACER
+        image: lorddiosan/devops-app:latest  # REMPLACER
         ports:
         - containerPort: 8080
         resources:
